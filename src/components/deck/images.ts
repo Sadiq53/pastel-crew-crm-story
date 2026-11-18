@@ -1,5 +1,5 @@
 import cover from "@/assets/cover.jpg";
-import product from "@/assets/product.jpg";
+import product from "@/assets/product-cosmetics.jpg";
 import customer from "@/assets/customer.jpg";
 import sales from "@/assets/sales.jpg";
 import purchase from "@/assets/purchase.jpg";

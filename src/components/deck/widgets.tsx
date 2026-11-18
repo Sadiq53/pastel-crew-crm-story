@@ -111,14 +111,14 @@ function ProductW() {
   const swatches = ["bg-tangerine", "bg-emerald", "bg-blush", "bg-lime"];
   return (
     <div className="flex h-full flex-col justify-between">
-      <Head icon={Package} title="Product · Variants" right={<Crud />} />
+      <Head icon={Package} title="Product · Shades" right={<Crud />} />
       <div className="flex items-center gap-6">
         <div className="grid h-24 w-24 place-items-center rounded-3xl border-[2.5px] border-ink bg-tangerine text-paper">
           <Package className="h-11 w-11" strokeWidth={2} />
         </div>
         <div className="flex-1">
-          <div className="w-heading">Steel Locker</div>
-          <div className="slide-caption mt-1 text-muted-foreground">Base product · 4 variants</div>
+          <div className="w-heading">Matte Lipstick</div>
+          <div className="slide-caption mt-1 text-muted-foreground">Base product · 4 shades</div>
         </div>
         <div className="flex items-center gap-3">
           {swatches.map((s, i) => (
@@ -144,11 +144,11 @@ function CustomerW() {
         <Head icon={User} title="Customer profile" />
         <div className="flex items-center gap-5">
           <div className="grid h-20 w-20 place-items-center rounded-full border-[2.5px] border-ink bg-blush font-display text-[32px] font-bold">
-            RS
+            GB
           </div>
           <div>
-            <div className="w-heading">Rahul Steels</div>
-            <div className="slide-caption text-muted-foreground">Wholesale customer</div>
+            <div className="w-heading">Glow Beauty Salon</div>
+            <div className="slide-caption text-muted-foreground">Salon customer</div>
           </div>
         </div>
         <div className="flex gap-3">
@@ -233,8 +233,8 @@ function PurchaseW() {
 
 function VendorW() {
   const rows = [
-    { name: "Mehta Metals", tag: "Sheets · Steel", tone: "bg-tangerine text-paper" },
-    { name: "Shree Locks", tag: "Locks · Brass", tone: "bg-blush" },
+    { name: "Lumière Labs", tag: "Skincare · Serums", tone: "bg-tangerine text-paper" },
+    { name: "Velvet Hues", tag: "Makeup · Lipsticks", tone: "bg-blush" },
   ];
   return (
     <div className="flex h-full gap-6">
@@ -300,7 +300,7 @@ function CommunicationW() {
       <Head icon={Mail} title="Bulk email · New launch" right={<Chip delay={1500} className="bg-emerald text-paper">Sent</Chip>} />
       <div className="a-rise rounded-3xl border-[2.5px] border-ink bg-cream p-5" style={d(600)}>
         <div className="slide-chrome text-muted-foreground">To: All customers</div>
-        <div className="w-heading mt-2">Introducing our new locker range</div>
+        <div className="w-heading mt-2">Introducing our new skincare range</div>
         <div className="mt-3 h-3 w-4/5 rounded-full bg-ink/10" />
       </div>
       <div className="flex items-center gap-3">
@@ -372,8 +372,8 @@ function RbacW() {
 
 function InventoryW() {
   const stores = [
-    { name: "Main warehouse", level: 82, tone: "bg-emerald" },
-    { name: "City store", level: 18, tone: "bg-tangerine", low: true },
+    { name: "Main stockroom", level: 82, tone: "bg-emerald" },
+    { name: "Shop counter", level: 18, tone: "bg-tangerine", low: true },
   ];
   return (
     <div className="flex h-full flex-col justify-between">

@@ -22,7 +22,7 @@ export const modules: CrmModule[] = [
     no: 1,
     name: "Product Management",
     title: "Products",
-    tagline: "The foundation of every order — the catalogue your customers deal with.",
+    tagline: "The foundation of every order — the beauty catalogue your customers shop from.",
     tone: "tangerine",
     features: ["Create new products", "Edit product details", "Delete products", "Manage product variants"],
   },
@@ -148,7 +148,7 @@ export const modules: CrmModule[] = [
     no: 10,
     name: "Inventory Management",
     title: "Inventory",
-    tagline: "Multiple warehouses, one live stock count.",
+    tagline: "Multiple stockrooms, one live count of every lipstick and serum.",
     tone: "blush",
     features: [
       "Create inventories",

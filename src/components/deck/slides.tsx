@@ -42,7 +42,7 @@ function CoverSlide({ page, total }: SlideProps) {
           </span>
         </h1>
         <p className="a-rise slide-body-lg mt-10 max-w-[760px] text-muted-foreground" style={d(450)}>
-          One calm, connected workspace for products, customers, sales, stock — and every branch.
+          One calm, connected workspace for your cosmetics shop — products, customers, sales, stock and every branch.
         </p>
         <div className="mt-12 flex gap-4">
           {[`${modules.length} modules`, `${totalFeatures} features`, "Multi-branch"].map((t, i) => (
@@ -370,7 +370,7 @@ function ClosingSlide({ page, total }: SlideProps) {
           </span>
         </h2>
         <p className="a-rise slide-body-lg mt-10 max-w-[900px]" style={d(600)}>
-          Every product, order, branch and person — in one premium, simple workspace.
+          Every lipstick, order, branch and person — in one premium, simple workspace.
         </p>
       </div>
 
